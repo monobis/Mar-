@@ -687,25 +687,32 @@ footer {
   .container {
     width: min(100% - 32px, 650px);
   }
+
   .hero {
     min-height: 700px;
     padding-top: 80px;
   }
+
   .hero-waves {
-    right: -220px;
-    top: 400px;
+    right: -120px;
+    top: 300px;
     width: 480px;
+    height: 480px;
   }
+
   .two-columns {
     grid-template-columns: 1fr;
     gap: 45px;
   }
+
   .feature-grid {
     grid-template-columns: 1fr;
   }
+
   .developer-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
   .steps-card {
     padding: 30px;
   }
@@ -715,22 +722,30 @@ footer {
   .hero h1 {
     letter-spacing: -1.5px;
   }
+
   .buttons {
     flex-direction: column;
   }
+
   .button {
     width: 100%;
   }
+
   .essential,
   .features,
   .developers,
   .why {
     padding: 75px 0;
   }
+
   .developer-grid {
     grid-template-columns: 1fr;
   }
+
   .hero-waves {
-    opacity: 0.5;
+    right: -130px;
+    top: 520px;
+    width: 400px;
+    height: 200px;
   }
 }
